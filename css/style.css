@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    background-color: #F8F8F8;
+}
+
+.main-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #02041A 6.33%, rgba(2, 4, 26, 0.6) 25.83%, rgba(2, 4, 26, 0.6) 86.77%, #02041A 99.18%);
+    width: 100%;
+    max-width: 100%;
+    list-style-type: none;
+}
+
+#bg-video {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-container {
+    position: absolute;
+}
+.logo-container {
+    margin-left: 115px;
+}
+
+.nav-list {
+    margin-left: 215px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 25px;
+}
+
+.nav-list li a {
+    color: #F8F8F8;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-list li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cart-trash {
+    margin-right: 115px;
+}
+/* Card Section */
+
+#slider {
+    padding-top: 983px;
+}
+
+.main {
+    padding: 0;
+}
+.product-section {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-section h1 {
+    width: 583px;
+    height: 48px;
+    padding-left: 116px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+}
+.product-section p {
+    width: 659px;
+    height: 29px;
+    left: 86px;
+    top: 903px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #686868;
+}
+.product-header {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.product-section-brand h1 {
+    top: 1600px;
+    left: 140px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+}
+
+#slider-brand {
+    top: 1600px;
+    margin-bottom: 20px;
+
+}
+
+.about-us {
+    position: absolute;
+    top: 1950px;
+}
+
+
+.about-us-tittle h1 {
+    position: absolute;
+    font-family: 'Montserrat';
+    left: 143px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    white-space: nowrap
+}
+
+.about-us-logo {
+    position: absolute;
+    left: 116px;
+    top: 170px;
+}
+
+.about-us-text-main{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.about-us-text-main h5 {
+    left: 614px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 140%;
+    margin-bottom: 50px;
+    letter-spacing: 0.01em;
+    color: #686868;
+    width: 100%;
+    font-size: 16px;
+
+}
+
+.about-us-text-description {
+    position: absolute;
+    left: 580px;
+    top: -15px;
+    white-space: nowrap
+
+}
+
+.about-us-text-offer {
+    position: absolute;
+    left: 625px;
+    top: 60px;
+    white-space: nowrap
+}
+
+.about-us-text-warranty {
+    position: absolute;
+    left: 960px;
+    top: 60px;
+    white-space: nowrap
+}
+
+.about-us-text-installation{
+    position: absolute;
+    left: 650px;
+    top: 130px;
+    white-space: nowrap
+}
+
+.img-wallet {
+    position: absolute;
+    left: 830px;
+    top: 240px;
+}
+
+.img-warranty {
+    position: absolute;
+    left: 1160px;
+    top: 241px;
+}
+
+.img-delivery {
+    position: absolute;
+    left: 830px;
+    top: 300px;
+}
+.address-shop {
+    position: absolute;
+    top: 2520px;
+    left: 140px;
+}
+
+.address-shop-tittle h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+}
+
+footer {
+    background-color: #001523;
+    color: white;
+    display: block;
+    height: 427px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-main {
+    position: absolute;
+    top: 3200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer-main li {
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.footer-main a {
+    color: #F8F8F8;
+    text-decoration: none;
+}
+
+.footer-main h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #F8F8F8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-main h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F8F8F8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer-tittle {
+    position: absolute;
+    left: 115px;
+    top: 77px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F8F8F8;
+}
+
+.footer-company {
+    position: absolute;
+    left: 315px;
+    top: 77px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F8F8F8;
+}
+
+.footer-information {
+    position: absolute;
+    left: 515px;
+    top: 77px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F8F8F8;
+}
+
+.footer-contacts {
+    position: absolute;
+    right: 138px;
+    top: 77px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #F8F8F8;
+}
+.social-networks {
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 639px;
+    top: 350px;
+}
+
+.trademark {
+    position: absolute;
+    width: 267px;
+    height: 22px;
+    left: 115px;
+    top: 400px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.2);
+}
